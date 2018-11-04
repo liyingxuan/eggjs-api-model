@@ -1,0 +1,340 @@
+2018-11-04 17:59:55,678 INFO 31378 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 17:59:55,722 INFO 31378 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 17:59:55,722 INFO 31378 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 17:59:55,723 INFO 31378 [egg-multipart] stream mode enable
+2018-11-04 17:59:55,723 INFO 31378 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 17:59:56,115 INFO 31378 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 17:59:56,118 INFO 31378 [egg-security] use methodnoallow middleware
+2018-11-04 17:59:56,119 INFO 31378 [egg-security] use noopen middleware
+2018-11-04 17:59:56,121 INFO 31378 [egg-security] use nosniff middleware
+2018-11-04 17:59:56,122 INFO 31378 [egg-security] use xssProtection middleware
+2018-11-04 17:59:56,123 INFO 31378 [egg-security] use xframe middleware
+2018-11-04 17:59:56,123 INFO 31378 [egg-security] use dta middleware
+2018-11-04 17:59:56,124 INFO 31378 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 17:59:56,136 INFO 31378 [egg:core] dump config after load, 6ms
+2018-11-04 17:59:56,200 INFO 31378 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 17:59:56 GMT+0800 (China Standard Time)
+2018-11-04 17:59:56,203 INFO 31378 [egg-watcher:application] watcher start success
+2018-11-04 17:59:56,225 INFO 31378 [egg:core] dump config after ready, 4ms
+2018-11-04 18:01:17,764 INFO 31403 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:01:17,812 INFO 31403 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:01:17,812 INFO 31403 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:01:17,813 INFO 31403 [egg-multipart] stream mode enable
+2018-11-04 18:01:17,813 INFO 31403 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:01:18,351 INFO 31403 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:01:18,354 INFO 31403 [egg-security] use methodnoallow middleware
+2018-11-04 18:01:18,355 INFO 31403 [egg-security] use noopen middleware
+2018-11-04 18:01:18,356 INFO 31403 [egg-security] use nosniff middleware
+2018-11-04 18:01:18,357 INFO 31403 [egg-security] use xssProtection middleware
+2018-11-04 18:01:18,358 INFO 31403 [egg-security] use xframe middleware
+2018-11-04 18:01:18,359 INFO 31403 [egg-security] use dta middleware
+2018-11-04 18:01:18,359 INFO 31403 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:01:18,368 INFO 31403 [egg:core] dump config after load, 5ms
+2018-11-04 18:01:18,397 INFO 31403 [egg-watcher:application] watcher start success
+2018-11-04 18:01:18,414 INFO 31403 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:01:18 GMT+0800 (China Standard Time)
+2018-11-04 18:01:18,438 INFO 31403 [egg:core] dump config after ready, 4ms
+2018-11-04 18:01:49,031 INFO 31416 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:01:49,080 INFO 31416 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:01:49,080 INFO 31416 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:01:49,081 INFO 31416 [egg-multipart] stream mode enable
+2018-11-04 18:01:49,081 INFO 31416 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:01:49,501 INFO 31416 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:01:49,505 INFO 31416 [egg-security] use methodnoallow middleware
+2018-11-04 18:01:49,506 INFO 31416 [egg-security] use noopen middleware
+2018-11-04 18:01:49,506 INFO 31416 [egg-security] use nosniff middleware
+2018-11-04 18:01:49,507 INFO 31416 [egg-security] use xssProtection middleware
+2018-11-04 18:01:49,508 INFO 31416 [egg-security] use xframe middleware
+2018-11-04 18:01:49,508 INFO 31416 [egg-security] use dta middleware
+2018-11-04 18:01:49,508 INFO 31416 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:01:49,520 INFO 31416 [egg:core] dump config after load, 6ms
+2018-11-04 18:01:49,551 INFO 31416 [egg-watcher:application] watcher start success
+2018-11-04 18:01:49,567 INFO 31416 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:01:49 GMT+0800 (China Standard Time)
+2018-11-04 18:01:49,592 INFO 31416 [egg:core] dump config after ready, 4ms
+2018-11-04 18:02:52,685 INFO 31438 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:02:52,729 INFO 31438 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:02:52,729 INFO 31438 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:02:52,729 INFO 31438 [egg-multipart] stream mode enable
+2018-11-04 18:02:52,730 INFO 31438 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:02:53,118 INFO 31438 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:02:53,121 INFO 31438 [egg-security] use methodnoallow middleware
+2018-11-04 18:02:53,122 INFO 31438 [egg-security] use noopen middleware
+2018-11-04 18:02:53,123 INFO 31438 [egg-security] use nosniff middleware
+2018-11-04 18:02:53,124 INFO 31438 [egg-security] use xssProtection middleware
+2018-11-04 18:02:53,125 INFO 31438 [egg-security] use xframe middleware
+2018-11-04 18:02:53,126 INFO 31438 [egg-security] use dta middleware
+2018-11-04 18:02:53,126 INFO 31438 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:02:53,136 INFO 31438 [egg:core] dump config after load, 6ms
+2018-11-04 18:02:53,167 INFO 31438 [egg-watcher:application] watcher start success
+2018-11-04 18:02:53,184 INFO 31438 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:02:53 GMT+0800 (China Standard Time)
+2018-11-04 18:02:53,210 INFO 31438 [egg:core] dump config after ready, 4ms
+2018-11-04 18:03:44,299 INFO 31454 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:03:44,343 INFO 31454 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:03:44,343 INFO 31454 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:03:44,344 INFO 31454 [egg-multipart] stream mode enable
+2018-11-04 18:03:44,344 INFO 31454 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:03:44,795 INFO 31454 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:03:44,798 INFO 31454 [egg-security] use methodnoallow middleware
+2018-11-04 18:03:44,798 INFO 31454 [egg-security] use noopen middleware
+2018-11-04 18:03:44,799 INFO 31454 [egg-security] use nosniff middleware
+2018-11-04 18:03:44,800 INFO 31454 [egg-security] use xssProtection middleware
+2018-11-04 18:03:44,800 INFO 31454 [egg-security] use xframe middleware
+2018-11-04 18:03:44,801 INFO 31454 [egg-security] use dta middleware
+2018-11-04 18:03:44,801 INFO 31454 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:03:44,811 INFO 31454 [egg:core] dump config after load, 5ms
+2018-11-04 18:03:44,841 INFO 31454 [egg-watcher:application] watcher start success
+2018-11-04 18:03:44,855 INFO 31454 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:03:44 GMT+0800 (China Standard Time)
+2018-11-04 18:03:44,880 INFO 31454 [egg:core] dump config after ready, 4ms
+2018-11-04 18:06:57,906 INFO 31514 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:06:57,955 INFO 31514 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:06:57,955 INFO 31514 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:06:57,955 INFO 31514 [egg-multipart] stream mode enable
+2018-11-04 18:06:57,956 INFO 31514 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:06:58,482 INFO 31514 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:06:58,484 INFO 31514 [egg-security] use methodnoallow middleware
+2018-11-04 18:06:58,485 INFO 31514 [egg-security] use noopen middleware
+2018-11-04 18:06:58,486 INFO 31514 [egg-security] use nosniff middleware
+2018-11-04 18:06:58,486 INFO 31514 [egg-security] use xssProtection middleware
+2018-11-04 18:06:58,487 INFO 31514 [egg-security] use xframe middleware
+2018-11-04 18:06:58,488 INFO 31514 [egg-security] use dta middleware
+2018-11-04 18:06:58,488 INFO 31514 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:06:58,498 INFO 31514 [egg:core] dump config after load, 5ms
+2018-11-04 18:06:58,527 INFO 31514 [egg-watcher:application] watcher start success
+2018-11-04 18:06:58,542 INFO 31514 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:06:58 GMT+0800 (China Standard Time)
+2018-11-04 18:06:58,567 INFO 31514 [egg:core] dump config after ready, 4ms
+2018-11-04 18:13:12,942 INFO 31643 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:13:12,991 INFO 31643 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:13:12,991 INFO 31643 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:13:12,991 INFO 31643 [egg-multipart] stream mode enable
+2018-11-04 18:13:12,992 INFO 31643 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:13:13,566 INFO 31643 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:13:13,569 INFO 31643 [egg-security] use methodnoallow middleware
+2018-11-04 18:13:13,570 INFO 31643 [egg-security] use noopen middleware
+2018-11-04 18:13:13,572 INFO 31643 [egg-security] use nosniff middleware
+2018-11-04 18:13:13,573 INFO 31643 [egg-security] use xssProtection middleware
+2018-11-04 18:13:13,574 INFO 31643 [egg-security] use xframe middleware
+2018-11-04 18:13:13,575 INFO 31643 [egg-security] use dta middleware
+2018-11-04 18:13:13,575 INFO 31643 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:13:13,585 INFO 31643 [egg:core] dump config after load, 5ms
+2018-11-04 18:13:13,621 INFO 31643 [egg-watcher:application] watcher start success
+2018-11-04 18:13:13,640 INFO 31643 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:13:13 GMT+0800 (China Standard Time)
+2018-11-04 18:13:13,661 INFO 31643 [egg:core] dump config after ready, 4ms
+2018-11-04 18:14:44,525 INFO 31672 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:14:44,571 INFO 31672 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:14:44,571 INFO 31672 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:14:44,572 INFO 31672 [egg-multipart] stream mode enable
+2018-11-04 18:14:44,572 INFO 31672 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:14:44,884 INFO 31672 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:14:44,887 INFO 31672 [egg-security] use methodnoallow middleware
+2018-11-04 18:14:44,887 INFO 31672 [egg-security] use noopen middleware
+2018-11-04 18:14:44,888 INFO 31672 [egg-security] use nosniff middleware
+2018-11-04 18:14:44,888 INFO 31672 [egg-security] use xssProtection middleware
+2018-11-04 18:14:44,889 INFO 31672 [egg-security] use xframe middleware
+2018-11-04 18:14:44,889 INFO 31672 [egg-security] use dta middleware
+2018-11-04 18:14:44,889 INFO 31672 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:14:44,900 INFO 31672 [egg:core] dump config after load, 6ms
+2018-11-04 18:14:44,935 INFO 31672 [egg-watcher:application] watcher start success
+2018-11-04 18:14:44,938 INFO 31672 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:14:44 GMT+0800 (China Standard Time)
+2018-11-04 18:14:44,977 INFO 31672 [egg:core] dump config after ready, 5ms
+2018-11-04 18:15:07,333 INFO 31681 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:15:07,382 INFO 31681 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:15:07,382 INFO 31681 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:15:07,383 INFO 31681 [egg-multipart] stream mode enable
+2018-11-04 18:15:07,383 INFO 31681 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:15:07,770 INFO 31681 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:15:07,773 INFO 31681 [egg-security] use methodnoallow middleware
+2018-11-04 18:15:07,773 INFO 31681 [egg-security] use noopen middleware
+2018-11-04 18:15:07,774 INFO 31681 [egg-security] use nosniff middleware
+2018-11-04 18:15:07,774 INFO 31681 [egg-security] use xssProtection middleware
+2018-11-04 18:15:07,774 INFO 31681 [egg-security] use xframe middleware
+2018-11-04 18:15:07,775 INFO 31681 [egg-security] use dta middleware
+2018-11-04 18:15:07,775 INFO 31681 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:15:07,786 INFO 31681 [egg:core] dump config after load, 7ms
+2018-11-04 18:15:07,822 INFO 31681 [egg-watcher:application] watcher start success
+2018-11-04 18:15:07,837 INFO 31681 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:15:07 GMT+0800 (China Standard Time)
+2018-11-04 18:15:07,867 INFO 31681 [egg:core] dump config after ready, 5ms
+2018-11-04 18:15:13,721 INFO 31683 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:15:13,762 INFO 31683 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:15:13,762 INFO 31683 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:15:13,763 INFO 31683 [egg-multipart] stream mode enable
+2018-11-04 18:15:13,763 INFO 31683 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:15:14,084 INFO 31683 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:15:14,087 INFO 31683 [egg-security] use methodnoallow middleware
+2018-11-04 18:15:14,087 INFO 31683 [egg-security] use noopen middleware
+2018-11-04 18:15:14,088 INFO 31683 [egg-security] use nosniff middleware
+2018-11-04 18:15:14,088 INFO 31683 [egg-security] use xssProtection middleware
+2018-11-04 18:15:14,089 INFO 31683 [egg-security] use xframe middleware
+2018-11-04 18:15:14,089 INFO 31683 [egg-security] use dta middleware
+2018-11-04 18:15:14,089 INFO 31683 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:15:14,099 INFO 31683 [egg:core] dump config after load, 6ms
+2018-11-04 18:15:14,135 INFO 31683 [egg-watcher:application] watcher start success
+2018-11-04 18:15:14,149 INFO 31683 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:15:14 GMT+0800 (China Standard Time)
+2018-11-04 18:15:14,181 INFO 31683 [egg:core] dump config after ready, 6ms
+2018-11-04 18:18:09,090 INFO 31738 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:18:09,131 INFO 31738 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:18:09,131 INFO 31738 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:18:09,132 INFO 31738 [egg-multipart] stream mode enable
+2018-11-04 18:18:09,132 INFO 31738 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:18:09,446 INFO 31738 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:18:09,449 INFO 31738 [egg-security] use methodnoallow middleware
+2018-11-04 18:18:09,449 INFO 31738 [egg-security] use noopen middleware
+2018-11-04 18:18:09,449 INFO 31738 [egg-security] use nosniff middleware
+2018-11-04 18:18:09,450 INFO 31738 [egg-security] use xssProtection middleware
+2018-11-04 18:18:09,450 INFO 31738 [egg-security] use xframe middleware
+2018-11-04 18:18:09,450 INFO 31738 [egg-security] use dta middleware
+2018-11-04 18:18:09,450 INFO 31738 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:18:09,461 INFO 31738 [egg:core] dump config after load, 5ms
+2018-11-04 18:18:09,495 INFO 31738 [egg-watcher:application] watcher start success
+2018-11-04 18:18:09,509 INFO 31738 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:18:09 GMT+0800 (China Standard Time)
+2018-11-04 18:18:09,537 INFO 31738 [egg:core] dump config after ready, 5ms
+2018-11-04 18:18:50,601 INFO 31754 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:18:50,647 INFO 31754 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:18:50,647 INFO 31754 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:18:50,648 INFO 31754 [egg-multipart] stream mode enable
+2018-11-04 18:18:50,648 INFO 31754 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:18:50,968 INFO 31754 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:18:50,972 INFO 31754 [egg-security] use methodnoallow middleware
+2018-11-04 18:18:50,972 INFO 31754 [egg-security] use noopen middleware
+2018-11-04 18:18:50,973 INFO 31754 [egg-security] use nosniff middleware
+2018-11-04 18:18:50,973 INFO 31754 [egg-security] use xssProtection middleware
+2018-11-04 18:18:50,974 INFO 31754 [egg-security] use xframe middleware
+2018-11-04 18:18:50,974 INFO 31754 [egg-security] use dta middleware
+2018-11-04 18:18:50,974 INFO 31754 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:18:50,985 INFO 31754 [egg:core] dump config after load, 5ms
+2018-11-04 18:18:51,018 INFO 31754 [egg-watcher:application] watcher start success
+2018-11-04 18:18:51,030 INFO 31754 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:18:51 GMT+0800 (China Standard Time)
+2018-11-04 18:18:51,056 INFO 31754 [egg:core] dump config after ready, 4ms
+2018-11-04 18:19:43,668 INFO 31770 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:19:43,716 INFO 31770 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:19:43,716 INFO 31770 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:19:43,717 INFO 31770 [egg-multipart] stream mode enable
+2018-11-04 18:19:43,718 INFO 31770 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:19:44,077 INFO 31770 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:19:44,083 INFO 31770 [egg-security] use methodnoallow middleware
+2018-11-04 18:19:44,084 INFO 31770 [egg-security] use noopen middleware
+2018-11-04 18:19:44,084 INFO 31770 [egg-security] use nosniff middleware
+2018-11-04 18:19:44,085 INFO 31770 [egg-security] use xssProtection middleware
+2018-11-04 18:19:44,085 INFO 31770 [egg-security] use xframe middleware
+2018-11-04 18:19:44,086 INFO 31770 [egg-security] use dta middleware
+2018-11-04 18:19:44,086 INFO 31770 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:19:44,100 INFO 31770 [egg:core] dump config after load, 7ms
+2018-11-04 18:19:44,140 INFO 31770 [egg-watcher:application] watcher start success
+2018-11-04 18:19:44,158 INFO 31770 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:19:44 GMT+0800 (China Standard Time)
+2018-11-04 18:19:44,196 INFO 31770 [egg:core] dump config after ready, 6ms
+2018-11-04 18:20:18,389 INFO 31788 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:20:18,444 INFO 31788 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:20:18,444 INFO 31788 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:20:18,445 INFO 31788 [egg-multipart] stream mode enable
+2018-11-04 18:20:18,445 INFO 31788 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:20:18,987 INFO 31788 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:20:18,990 INFO 31788 [egg-security] use methodnoallow middleware
+2018-11-04 18:20:18,991 INFO 31788 [egg-security] use noopen middleware
+2018-11-04 18:20:18,992 INFO 31788 [egg-security] use nosniff middleware
+2018-11-04 18:20:18,993 INFO 31788 [egg-security] use xssProtection middleware
+2018-11-04 18:20:18,993 INFO 31788 [egg-security] use xframe middleware
+2018-11-04 18:20:18,994 INFO 31788 [egg-security] use dta middleware
+2018-11-04 18:20:18,994 INFO 31788 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:20:19,005 INFO 31788 [egg:core] dump config after load, 5ms
+2018-11-04 18:20:19,037 INFO 31788 [egg-watcher:application] watcher start success
+2018-11-04 18:20:19,054 INFO 31788 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:20:19 GMT+0800 (China Standard Time)
+2018-11-04 18:20:19,097 INFO 31788 [egg:core] dump config after ready, 7ms
+2018-11-04 18:20:25,714 INFO 31792 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:20:25,774 INFO 31792 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:20:25,774 INFO 31792 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:20:25,774 INFO 31792 [egg-multipart] stream mode enable
+2018-11-04 18:20:25,775 INFO 31792 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:20:26,155 INFO 31792 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:20:26,158 INFO 31792 [egg-security] use methodnoallow middleware
+2018-11-04 18:20:26,159 INFO 31792 [egg-security] use noopen middleware
+2018-11-04 18:20:26,159 INFO 31792 [egg-security] use nosniff middleware
+2018-11-04 18:20:26,160 INFO 31792 [egg-security] use xssProtection middleware
+2018-11-04 18:20:26,160 INFO 31792 [egg-security] use xframe middleware
+2018-11-04 18:20:26,160 INFO 31792 [egg-security] use dta middleware
+2018-11-04 18:20:26,160 INFO 31792 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:20:26,171 INFO 31792 [egg:core] dump config after load, 6ms
+2018-11-04 18:20:26,207 INFO 31792 [egg-watcher:application] watcher start success
+2018-11-04 18:20:26,210 INFO 31792 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:20:26 GMT+0800 (China Standard Time)
+2018-11-04 18:20:26,254 INFO 31792 [egg:core] dump config after ready, 5ms
+2018-11-04 18:22:21,973 INFO 31828 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:22:22,013 INFO 31828 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:22:22,013 INFO 31828 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:22:22,013 INFO 31828 [egg-multipart] stream mode enable
+2018-11-04 18:22:22,014 INFO 31828 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:22:22,318 INFO 31828 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:22:22,321 INFO 31828 [egg-security] use methodnoallow middleware
+2018-11-04 18:22:22,321 INFO 31828 [egg-security] use noopen middleware
+2018-11-04 18:22:22,321 INFO 31828 [egg-security] use nosniff middleware
+2018-11-04 18:22:22,322 INFO 31828 [egg-security] use xssProtection middleware
+2018-11-04 18:22:22,322 INFO 31828 [egg-security] use xframe middleware
+2018-11-04 18:22:22,322 INFO 31828 [egg-security] use dta middleware
+2018-11-04 18:22:22,322 INFO 31828 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:22:22,333 INFO 31828 [egg:core] dump config after load, 6ms
+2018-11-04 18:22:22,374 INFO 31828 [egg-watcher:application] watcher start success
+2018-11-04 18:22:22,393 INFO 31828 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:22:22 GMT+0800 (China Standard Time)
+2018-11-04 18:22:22,418 INFO 31828 [egg:core] dump config after ready, 5ms
+2018-11-04 18:23:47,131 INFO 31855 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:23:47,169 INFO 31855 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:23:47,169 INFO 31855 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:23:47,170 INFO 31855 [egg-multipart] stream mode enable
+2018-11-04 18:23:47,170 INFO 31855 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:23:47,503 INFO 31855 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:23:47,506 INFO 31855 [egg-security] use methodnoallow middleware
+2018-11-04 18:23:47,507 INFO 31855 [egg-security] use noopen middleware
+2018-11-04 18:23:47,507 INFO 31855 [egg-security] use nosniff middleware
+2018-11-04 18:23:47,508 INFO 31855 [egg-security] use xssProtection middleware
+2018-11-04 18:23:47,508 INFO 31855 [egg-security] use xframe middleware
+2018-11-04 18:23:47,508 INFO 31855 [egg-security] use dta middleware
+2018-11-04 18:23:47,508 INFO 31855 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:23:47,522 INFO 31855 [egg:core] dump config after load, 8ms
+2018-11-04 18:23:47,559 INFO 31855 [egg-watcher:application] watcher start success
+2018-11-04 18:23:47,576 INFO 31855 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:23:47 GMT+0800 (China Standard Time)
+2018-11-04 18:23:47,598 INFO 31855 [egg:core] dump config after ready, 4ms
+2018-11-04 18:24:14,976 INFO 31864 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:24:15,021 INFO 31864 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:24:15,021 INFO 31864 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:24:15,022 INFO 31864 [egg-multipart] stream mode enable
+2018-11-04 18:24:15,022 INFO 31864 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:24:15,345 INFO 31864 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:24:15,348 INFO 31864 [egg-security] use methodnoallow middleware
+2018-11-04 18:24:15,348 INFO 31864 [egg-security] use noopen middleware
+2018-11-04 18:24:15,348 INFO 31864 [egg-security] use nosniff middleware
+2018-11-04 18:24:15,349 INFO 31864 [egg-security] use xssProtection middleware
+2018-11-04 18:24:15,349 INFO 31864 [egg-security] use xframe middleware
+2018-11-04 18:24:15,349 INFO 31864 [egg-security] use dta middleware
+2018-11-04 18:24:15,349 INFO 31864 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:24:15,365 INFO 31864 [egg:core] dump config after load, 11ms
+2018-11-04 18:24:15,402 INFO 31864 [egg-watcher:application] watcher start success
+2018-11-04 18:24:15,421 INFO 31864 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:24:15 GMT+0800 (China Standard Time)
+2018-11-04 18:24:15,446 INFO 31864 [egg:core] dump config after ready, 5ms
+2018-11-04 18:25:36,379 INFO 31891 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:25:36,423 INFO 31891 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:25:36,423 INFO 31891 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:25:36,424 INFO 31891 [egg-multipart] stream mode enable
+2018-11-04 18:25:36,424 INFO 31891 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:25:36,706 INFO 31891 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:25:36,709 INFO 31891 [egg-security] use methodnoallow middleware
+2018-11-04 18:25:36,710 INFO 31891 [egg-security] use noopen middleware
+2018-11-04 18:25:36,712 INFO 31891 [egg-security] use nosniff middleware
+2018-11-04 18:25:36,712 INFO 31891 [egg-security] use xssProtection middleware
+2018-11-04 18:25:36,712 INFO 31891 [egg-security] use xframe middleware
+2018-11-04 18:25:36,713 INFO 31891 [egg-security] use dta middleware
+2018-11-04 18:25:36,713 INFO 31891 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:25:36,725 INFO 31891 [egg:core] dump config after load, 6ms
+2018-11-04 18:25:36,755 INFO 31891 [egg-watcher:application] watcher start success
+2018-11-04 18:25:36,767 INFO 31891 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:25:36 GMT+0800 (China Standard Time)
+2018-11-04 18:25:36,794 INFO 31891 [egg:core] dump config after ready, 6ms
+2018-11-04 18:30:10,692 INFO 31979 [egg:logger] init all loggers with options: {"dir":"/Users/lyx/Desktop/eggjs-api-model/logs/eggjs-api-model","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-api-model-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-04 18:30:10,741 INFO 31979 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-11-04 18:30:10,741 INFO 31979 [egg-schedule]: register schedule /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-04 18:30:10,742 INFO 31979 [egg-multipart] stream mode enable
+2018-11-04 18:30:10,743 INFO 31979 [egg-mysql] connecting root@127.0.0.1:3306/node-js
+2018-11-04 18:30:11,249 INFO 31979 [egg-static] starting static serve /public/ -> /Users/lyx/Desktop/eggjs-api-model/app/public
+2018-11-04 18:30:11,253 INFO 31979 [egg-security] use methodnoallow middleware
+2018-11-04 18:30:11,254 INFO 31979 [egg-security] use noopen middleware
+2018-11-04 18:30:11,255 INFO 31979 [egg-security] use nosniff middleware
+2018-11-04 18:30:11,256 INFO 31979 [egg-security] use xssProtection middleware
+2018-11-04 18:30:11,257 INFO 31979 [egg-security] use xframe middleware
+2018-11-04 18:30:11,258 INFO 31979 [egg-security] use dta middleware
+2018-11-04 18:30:11,259 INFO 31979 [egg-security] compose 6 middlewares into one security middleware
+2018-11-04 18:30:11,272 INFO 31979 [egg:core] dump config after load, 7ms
+2018-11-04 18:30:11,307 INFO 31979 [egg-watcher:application] watcher start success
+2018-11-04 18:30:11,330 INFO 31979 [egg-mysql] instance[0] status OK, rds currentTime: Sun Nov 04 2018 18:30:11 GMT+0800 (China Standard Time)
+2018-11-04 18:30:11,351 INFO 31979 [egg:core] dump config after ready, 5ms

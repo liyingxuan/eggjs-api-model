@@ -1,0 +1,291 @@
+{
+  "keys": "/Users/lyx/Desktop/eggjs-api-model/config/config.default.js",
+  "middleware": "/Users/lyx/Desktop/eggjs-api-model/config/config.default.js",
+  "sequelize": {
+    "dialect": "/Users/lyx/Desktop/eggjs-api-model/config/config.default.js",
+    "host": "/Users/lyx/Desktop/eggjs-api-model/config/config.default.js",
+    "port": "/Users/lyx/Desktop/eggjs-api-model/config/config.default.js",
+    "database": "/Users/lyx/Desktop/eggjs-api-model/config/config.default.js",
+    "password": "/Users/lyx/Desktop/eggjs-api-model/config/config.default.js",
+    "username": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-sequelize/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/lyx/Desktop/eggjs-api-model/config/config.default.js",
+      "useSession": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "mysql": {
+    "client": {
+      "host": "/Users/lyx/Desktop/eggjs-api-model/config/config.local.js",
+      "port": "/Users/lyx/Desktop/eggjs-api-model/config/config.local.js",
+      "user": "/Users/lyx/Desktop/eggjs-api-model/config/config.local.js",
+      "password": "/Users/lyx/Desktop/eggjs-api-model/config/config.local.js",
+      "database": "/Users/lyx/Desktop/eggjs-api-model/config/config.local.js"
+    },
+    "app": "/Users/lyx/Desktop/eggjs-api-model/config/config.local.js",
+    "agent": "/Users/lyx/Desktop/eggjs-api-model/config/config.local.js",
+    "default": {
+      "database": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+  "name": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "version": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "description": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "private": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "dev": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "cov": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "lint": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "ci": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "autod": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+    },
+    "license": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "strict": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "depth": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "env": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "level": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "logging": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "port": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+}

@@ -1,0 +1,124 @@
+2018-11-04 17:59:56,217 INFO 31378 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:01:18,431 INFO 31403 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:01:49,585 INFO 31416 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:01:52,749 INFO 31416 [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` ORDER BY `users`.`created_at` DESC, `users`.`id` DESC LIMIT 0, 10;
+2018-11-04 18:01:52,752 INFO 31416 [egg-sequelize](12ms) Executed (default): SELECT count(*) AS `count` FROM `users` AS `users`;
+2018-11-04 18:01:59,165 INFO 31416 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `users` AS `users`;
+2018-11-04 18:01:59,166 INFO 31416 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` ORDER BY `users`.`created_at` DESC, `users`.`id` DESC LIMIT 0, 10;
+2018-11-04 18:02:05,224 INFO 31416 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `users` AS `users`;
+2018-11-04 18:02:05,226 INFO 31416 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` ORDER BY `users`.`created_at` DESC, `users`.`id` DESC LIMIT 0, 10;
+2018-11-04 18:02:53,201 INFO 31438 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:03:01,401 INFO 31438 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`id` = 22;
+2018-11-04 18:03:44,873 INFO 31454 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:03:45,627 INFO 31454 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `users` AS `users`;
+2018-11-04 18:03:45,630 INFO 31454 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` ORDER BY `users`.`created_at` DESC, `users`.`id` DESC LIMIT 0, 10;
+2018-11-04 18:06:58,559 INFO 31514 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:07:27,102 INFO 31514 [-/::1/-/2ms POST /api/users/] my request data:  { id: '22', name: '321' }
+2018-11-04 18:07:27,123 INFO 31514 [egg-sequelize](3ms) Executed (default): INSERT INTO `users` (`id`,`name`,`created_at`,`updated_at`) VALUES (DEFAULT,'321','2018-11-04 10:07:27','2018-11-04 10:07:27');
+2018-11-04 18:07:32,273 INFO 31514 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `users` AS `users`;
+2018-11-04 18:07:32,279 INFO 31514 [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` ORDER BY `users`.`created_at` DESC, `users`.`id` DESC LIMIT 0, 10;
+2018-11-04 18:10:17,766 WARN 31514 [-/127.0.0.1/-/1ms GET /] nodejs.NotFoundError: user not found
+    at Object.throw (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa/lib/context.js:96:11)
+    at User.update (/Users/lyx/Desktop/eggjs-api-model/app/service/users.js:29:18)
+message: "user not found"
+pid: 31514
+hostname: localhost
+
+2018-11-04 18:10:59,198 WARN 31514 [-/127.0.0.1/-/0ms GET /] nodejs.NotFoundError: user not found
+    at Object.throw (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa/lib/context.js:96:11)
+    at User.update (/Users/lyx/Desktop/eggjs-api-model/app/service/users.js:29:18)
+message: "user not found"
+pid: 31514
+hostname: localhost
+
+2018-11-04 18:11:37,403 WARN 31514 [-/127.0.0.1/-/0ms GET /] nodejs.NotFoundError: user not found
+    at Object.throw (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa/lib/context.js:96:11)
+    at User.update (/Users/lyx/Desktop/eggjs-api-model/app/service/users.js:29:18)
+message: "user not found"
+pid: 31514
+hostname: localhost
+
+2018-11-04 18:11:44,241 INFO 31514 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`id` = 22;
+2018-11-04 18:11:49,582 WARN 31514 [-/127.0.0.1/-/0ms GET /] nodejs.NotFoundError: user not found
+    at Object.throw (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa/lib/context.js:96:11)
+    at User.update (/Users/lyx/Desktop/eggjs-api-model/app/service/users.js:29:18)
+message: "user not found"
+pid: 31514
+hostname: localhost
+
+2018-11-04 18:11:54,364 WARN 31514 [-/127.0.0.1/-/0ms GET /] nodejs.NotFoundError: user not found
+    at Object.throw (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa/lib/context.js:96:11)
+    at User.update (/Users/lyx/Desktop/eggjs-api-model/app/service/users.js:29:18)
+message: "user not found"
+pid: 31514
+hostname: localhost
+
+2018-11-04 18:13:12,193 WARN 31514 [-/127.0.0.1/-/0ms GET /] nodejs.NotFoundError: user not found
+    at Object.throw (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa/lib/context.js:96:11)
+    at User.update (/Users/lyx/Desktop/eggjs-api-model/app/service/users.js:29:18)
+message: "user not found"
+pid: 31514
+hostname: localhost
+
+2018-11-04 18:13:13,653 INFO 31643 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:13:24,918 INFO 31643 [-/::1/-/22ms PUT /api/users/22] my request data:  22
+2018-11-04 18:13:24,920 WARN 31643 [-/127.0.0.1/-/0ms GET /] nodejs.NotFoundError: user not found
+    at Object.throw (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa/lib/context.js:96:11)
+    at User.update (/Users/lyx/Desktop/eggjs-api-model/app/service/users.js:29:18)
+message: "user not found"
+pid: 31643
+hostname: localhost
+
+2018-11-04 18:14:43,517 INFO 31643 [-/::1/-/1ms PUT /api/users/22] my request data:  22
+2018-11-04 18:14:43,518 WARN 31643 [-/127.0.0.1/-/0ms GET /] nodejs.NotFoundError: user not found
+    at Object.throw (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa/lib/context.js:96:11)
+    at User.update (/Users/lyx/Desktop/eggjs-api-model/app/service/users.js:29:18)
+message: "user not found"
+pid: 31643
+hostname: localhost
+
+2018-11-04 18:14:44,968 INFO 31672 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:15:07,857 INFO 31681 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:15:13,448 INFO 31681 [-/::1/-/15ms PUT /api/users/22] my request data:  undefined
+2018-11-04 18:15:14,170 INFO 31683 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:15:18,746 INFO 31683 [-/::1/-/15ms PUT /api/users/22] my request data:  undefined
+2018-11-04 18:15:18,747 INFO 31683 [-/::1/-/16ms PUT /api/users/22] my request data:  undefined
+2018-11-04 18:15:18,749 WARN 31683 [-/127.0.0.1/-/1ms GET /] nodejs.NotFoundError: user not found
+    at Object.throw (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa/lib/context.js:96:11)
+    at User.update (/Users/lyx/Desktop/eggjs-api-model/app/service/users.js:31:18)
+message: "user not found"
+pid: 31683
+hostname: localhost
+
+2018-11-04 18:18:08,827 INFO 31683 [-/::1/-/1ms PUT /api/users/22] my request data:  undefined
+2018-11-04 18:18:08,827 INFO 31683 [-/::1/-/1ms PUT /api/users/22] my request data:  undefined
+2018-11-04 18:18:08,828 WARN 31683 [-/127.0.0.1/-/0ms GET /] nodejs.NotFoundError: user not found
+    at Object.throw (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa/lib/context.js:96:11)
+    at User.update (/Users/lyx/Desktop/eggjs-api-model/app/service/users.js:31:18)
+message: "user not found"
+pid: 31683
+hostname: localhost
+
+2018-11-04 18:18:09,528 INFO 31738 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:18:12,536 INFO 31738 [-/::1/-/14ms PUT /api/users/22] my request data:  22
+2018-11-04 18:18:51,048 INFO 31754 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:18:52,387 INFO 31754 [-/::1/-/16ms PUT /api/users/22] my request data:  22
+2018-11-04 18:18:52,388 INFO 31754 [-/::1/-/16ms PUT /api/users/22] my request data:  { name: '321' }
+2018-11-04 18:18:52,403 INFO 31754 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`id` = 22;
+2018-11-04 18:18:52,425 INFO 31754 [egg-sequelize](5ms) Executed (default): UPDATE `users` SET `name`='321',`updated_at`='2018-11-04 10:18:52' WHERE `id` = 22
+2018-11-04 18:19:01,655 INFO 31754 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `users` AS `users`;
+2018-11-04 18:19:01,656 INFO 31754 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` ORDER BY `users`.`created_at` DESC, `users`.`id` DESC LIMIT 0, 10;
+2018-11-04 18:19:44,183 INFO 31770 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:20:19,083 INFO 31788 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:20:26,245 INFO 31792 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:22:22,409 INFO 31828 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:23:47,590 INFO 31855 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:24:15,436 INFO 31864 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:25:36,784 INFO 31891 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2018-11-04 18:25:50,239 INFO 31891 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` ORDER BY `users`.`created_at` DESC, `users`.`id` DESC LIMIT 0, 10;
+2018-11-04 18:25:50,240 INFO 31891 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `users` AS `users`;
+2018-11-04 18:28:10,007 INFO 31891 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`id` = 22;
+2018-11-04 18:28:10,015 INFO 31891 [egg-sequelize](4ms) Executed (default): DELETE FROM `users` WHERE `id` = 22 LIMIT 1
+2018-11-04 18:28:17,799 INFO 31891 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `users` AS `users`;
+2018-11-04 18:28:17,801 INFO 31891 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` ORDER BY `users`.`created_at` DESC, `users`.`id` DESC LIMIT 0, 10;
+2018-11-04 18:30:11,342 INFO 31979 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result

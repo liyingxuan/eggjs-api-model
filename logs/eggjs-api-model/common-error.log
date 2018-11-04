@@ -1,0 +1,162 @@
+2018-11-04 18:00:28,106 ERROR 31378 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/lyx/Desktop/eggjs-api-model/app/controller/users.js:15:35)
+    at Object.callFn (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at /Users/lyx/Desktop/eggjs-api-model/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 31378
+hostname: localhost
+
+2018-11-04 18:01:17,673 ERROR 31378 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/lyx/Desktop/eggjs-api-model/app/controller/users.js:15:35)
+    at Object.callFn (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at /Users/lyx/Desktop/eggjs-api-model/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 31378
+hostname: localhost
+
+2018-11-04 18:01:19,284 ERROR 31403 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'findAndCountAll' of undefined
+    at User.list (/Users/lyx/Desktop/eggjs-api-model/app/service/users.js:7:30)
+    at UserController.index (/Users/lyx/Desktop/eggjs-api-model/app/controller/users.js:15:38)
+    at Object.callFn (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at /Users/lyx/Desktop/eggjs-api-model/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+
+pid: 31403
+hostname: localhost
+
+2018-11-04 18:01:49,223 ERROR 31403 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'findAndCountAll' of undefined
+    at User.list (/Users/lyx/Desktop/eggjs-api-model/app/service/users.js:7:30)
+    at UserController.index (/Users/lyx/Desktop/eggjs-api-model/app/controller/users.js:15:38)
+    at Object.callFn (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at /Users/lyx/Desktop/eggjs-api-model/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+
+pid: 31403
+hostname: localhost
+
+2018-11-04 18:15:13,450 ERROR 31681 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: vctx is not defined
+    at User.update (/Users/lyx/Desktop/eggjs-api-model/app/service/users.js:28:3)
+    at UserController.update (/Users/lyx/Desktop/eggjs-api-model/app/controller/users.js:57:40)
+    at Object.callFn (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at /Users/lyx/Desktop/eggjs-api-model/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+
+pid: 31681
+hostname: localhost
+
+2018-11-04 18:18:12,538 ERROR 31738 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: updates is not defined
+    at User.update (/Users/lyx/Desktop/eggjs-api-model/app/service/users.js:28:45)
+    at UserController.update (/Users/lyx/Desktop/eggjs-api-model/app/controller/users.js:60:40)
+    at Object.callFn (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at /Users/lyx/Desktop/eggjs-api-model/app/middleware/error_handler.js:6:13
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at /Users/lyx/Desktop/eggjs-api-model/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/lyx/Desktop/eggjs-api-model/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/lyx/Desktop/eggjs-api-model/node_modules/koa-compose/index.js:42:32)
+
+pid: 31738
+hostname: localhost
+
