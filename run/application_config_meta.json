@@ -182,7 +182,8 @@
     },
     "devDependencies": {
       "egg-bin": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
-      "egg-mock": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
+      "egg-mock": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js",
+      "sequelize-cli": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"
     },
     "engines": {
       "node": "/Users/lyx/Desktop/eggjs-api-model/node_modules/egg/config/config.default.js"

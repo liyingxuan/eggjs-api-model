@@ -18,7 +18,7 @@ egg-project
 │   |   └── users.js
 │   ├── public（可选）
 │   |   └── xxx.css
-│   └─── service
+│   └── service
 │       └── users.js
 ├── config
 |   ├── config.default.js
